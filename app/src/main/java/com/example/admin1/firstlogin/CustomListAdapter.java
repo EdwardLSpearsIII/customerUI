@@ -6,6 +6,8 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -31,6 +33,10 @@ public class CustomListAdapter extends ArrayAdapter<activity_customer_home> {
         LayoutInflater inflater = LayoutInflater.from(mCtx);
 
         View view = inflater.inflate(resource, null);
+        View v = convertView;
+
+        Animation animation = AnimationUtils.loadAnimation(getContext(), R.anim.fade_in );
+        view.startAnimation(animation);
 
         TextView name = view.findViewById(R.id.name);
         TextView number = view.findViewById(R.id.number);
