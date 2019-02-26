@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "447348619529",
+    "firebase_url": "https://official-campus-connect.firebaseio.com",
+    "project_id": "official-campus-connect",
+    "storage_bucket": "official-campus-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447348619529:android:dddaf2c2c5af2725",
+        "android_client_info": {
+          "package_name": "com.example.admin1.firstlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447348619529-pt84h642q601m8345g5obnaqui5nk0gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtiWkzbYxqsLJHumJjvzw9fCUX6JFnLA8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
