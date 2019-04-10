@@ -21,6 +21,8 @@ public class Login extends AppCompatActivity {
     private Button btnLogin;
     private FirebaseAuth mAuth;
     private Intent activity_customer_home2;
+    private Intent activity_customer_search;
+    private Intent navigationbar;
 
 
 
@@ -36,6 +38,9 @@ public class Login extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         activity_customer_home2 = new Intent(this, com.example.admin1.firstlogin.activity_customer_home2.class);
+        activity_customer_search = new Intent(this, com.example.admin1.firstlogin.activity_customer_search.class);
+        navigationbar = new Intent(this, com.example.admin1.firstlogin.navigationbar.class);
+
 
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -77,7 +82,7 @@ public class Login extends AppCompatActivity {
 
     private void updateUI() {
 
-        startActivity(activity_customer_home2);
+        startActivity(navigationbar);
         finish();
     }
 

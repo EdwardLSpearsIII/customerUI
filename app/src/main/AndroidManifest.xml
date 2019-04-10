@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login"
+        <activity
+            android:name=".Login"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,9 +21,9 @@
 
         <activity android:name=".signUpActivity" />
         <activity
-            android:name=".BusinessUser"
+            android:name=".BusinessUser.BusinessUser"
             android:label="BusinessUser" />
-        <activity android:name=".activity_customer_home2" />
+        <activity android:name=".navigationbar" />
     </application>
 
 </manifest>
